@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* Navigation Bar */
+
+#navmenu {
+    background-color: #e3f2fd;
+}
+
+.nav-link {
+    color: #276e87;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #1b4b5c;
+    margin-bottom: -2px;
+}
+
+.fa-solid, .fa-regular {
+    padding: 5px;
+}
+
+.material-icons {
+	padding-right: 2px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 20;
+}
+
+.icon-20px { 
+	font-size: 23px; /* Set the size to 20px */ 
+	padding-right: 2px;
+}
+
+/* newClient.jsp */
+
+.form-section {
+    min-height:77vh;
+    background-image: linear-gradient(to bottom, #e3f2fd 0%, #89f7fe 97%, #66a6ff 100%);
+    padding: 2vh 0;
+}
+
+.form-header {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/add-clients-background.jpg");
+    height: 474px;
+    color: white;
+}
+
+.form-header-contrast-overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 100%;
+  	backdrop-filter: blur(5px);
+}
+
+.fa-arrow-down-long {
+    margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 20%;
+    padding: 10px 13px;
+    color: white;
+}
+
+.fa-arrow-down-long:hover {
+    background-color: #1b4b5c;
+    border-color: #1b4b5c;
+}
+
+
+.form {
+    min-height: 80%;
+    min-width: 30%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 12px 2px 15px 0 rgba(0, 0, 0, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.19);
+    margin: 5vmax 0;
+}
+
+.add-client-header {
+	margin-left: 2vmax;
+}
+
+.form-incentive {
+    padding-bottom: 1.5vh;
+}
+
+form {
+    margin: 5% 8% 7% 8%;
+}
+
+.error-message {
+	width: 100vw;
+	height:100vh;
+}

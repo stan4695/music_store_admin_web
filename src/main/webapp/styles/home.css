@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+/* -----Homepage-----*/
+/* Navigation Bar */
+
+#navmenu {
+    background-color: #e3f2fd;
+}
+
+.nav-link {
+    color: #276e87;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #1b4b5c;
+    margin-bottom: -2px;
+}
+
+.dropdown-toggle::after { display: none; }
+
+.fa-solid, .fa-regular {
+    padding: 5px;
+}
+
+/* Heading Intro */
+
+.intro {
+    background-image: url("../images/main_background_image.jpg");
+    background-size: cover;
+    color: white;
+    /*height: 60vh;*/
+    min-height: 35rem;
+    padding: 4vmin 0;
+}
+
+.intro-text {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 60px 20px 60px 20px;
+	border-radius: 0px 15px 15px 0px;
+	background: transparent;
+  	backdrop-filter: blur(20px);
+}
+
+.profile-image {
+    max-width: auto;
+    max-height: 18rem;
+    padding: 20px 20px;
+    border-right: 7px solid white;
+}
+
+.fa-arrow-down-long {
+    margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 20%;
+    padding: 10px 13px;
+}
+
+.fa-arrow-down-long:hover {
+    background-color: #1b4b5c;
+    border-color: #1b4b5c;
+}
+
+.scroll-down-link, .scroll-down-link:hover {
+    color: white;
+}
+
+/* Cards Section */
+
+.cards-section {
+    padding: 6% 0;
+    background-color: #e3f2fd;
+    height: auto;
+}
+
+.card {
+    padding-top: 15px;
+    max-width: 25rem;
+    min-height: 23rem;
+    margin: 1rem;
+    position: relative;
+    border: none;
+    box-shadow: 12px 2px 15px 0 rgba(0, 0, 0, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cards-description-clients, .cards-description-albums {
+    margin: 25px;
+    padding: 0 25px;
+    border-left: 6px solid #276e87;
+}
+
+.cards-description-orders {
+    margin: 25px;
+    padding: 0 25px;
+    border-left: 6px solid #f2c922;
+}
+
+.clients-card-header, .albums-card-header {
+    color: #276e87;
+}
+
+.orders-card-header {
+    color: #f2c922;
+}
+
+.clients-card, .albums-card {
+    background-color: white;
+    color: black;
+}
+
+.orders-card {
+    background-color: #276e87;
+    color: white;
+}
+
+.clients-btn, .orders-btn, .albums-btn {
+    position: absolute;
+    bottom: 15px;  /* Position 10px from the bottom */
+    left: 30px;
+    right: 30px;
+    margin-left: auto;
+    margin-right: auto;  /* Center horizontally */
+}
+
+.albums-btn, .clients-btn {
+    background-color: #276e87;
+    border-color: #276e87;
+}
+
+.albums-btn:hover, .clients-btn:hover {
+    background-color: #1b4b5c;
+    border-color: #1b4b5c;
+}
+
+.orders-btn {
+    border-color: #f2c922;
+    color: #f2c922;
+}
+
+.orders-btn:hover {
+    background-color: #c9a71c;
+    border-color: #c9a71c;
+}
+
+/* showClienti.jsp */
+
+
+/* Roboto Font classes */
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .error-message {
+	width: 100vw;
+	height:100vh;
+}

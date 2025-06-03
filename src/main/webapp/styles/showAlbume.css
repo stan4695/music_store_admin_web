@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* Navigation Bar */
+
+#navmenu {
+    background-color: #e3f2fd;
+    min-height: 10vh;
+}
+
+.nav-link {
+    color: #276e87;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #1b4b5c;
+    margin-bottom: -2px;
+}
+
+.fa-solid, .fa-regular {
+    padding: 5px;
+}
+
+/* showClient.jsp */
+
+.table-form {
+	width: 90%;
+}
+
+.table-container {
+	margin: 10px;
+}
+
+.add-client {
+	margin-right: 5.5vmax;
+}
+
+main {
+	background-image: url('../images/showAlbume_background2.jpeg');
+	background-size: cover;
+	
+}
+
+.main-contrast-overlay {
+	padding: 6vmax 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	min-height: 90vh;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+body {
+	
+	margin: 0;
+	padding: 0;
+}
+
+.error-message {
+	width: 100vw;
+	height:100vh;
+}
